@@ -1,0 +1,15 @@
+/*$colors:(
+    primary: #76a8f3;
+    secondary: #131f8a; 
+    tertiary: 
+)
+
+@function color($color-name) {
+    @return map-get($colors , $color-name:)
+}
+
+$padding: 1.3rem
+body {
+    background-color: rgba(color(primary), 0.4)
+}
+*/

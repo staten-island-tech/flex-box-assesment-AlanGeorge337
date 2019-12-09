@@ -1,0 +1,66 @@
+@import "./_fonts.scss";
+@import "./header";
+@import "./variables";
+
+$primary: #76a8f3;
+$secondary: #131f8a;  
+
+
+html {
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: $primary;
+  height: 100%;
+}
+
+.whole_page{
+    height: 100rem;
+    position: relative;
+    font-size: 3rem;
+}
+
+.title{
+  position: absolute;
+  top: 0%;
+  left: 42.5%;
+
+  font-family: 'Lobster', cursive;
+  color: $secondary ;
+}
+
+.flex-parent {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-child{
+  background-color: $secondary;
+  margin: 50px;
+  height: 50vh;
+  width: 100vh;
+  
+  color: white;
+}
+
+#flex-grow-1{
+
+  display: flex; 
+    background-size: contain;
+
+}
+
+#flex-grow-2{
+
+  flex-grow: 2;
+  display: flex;
+    background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */
