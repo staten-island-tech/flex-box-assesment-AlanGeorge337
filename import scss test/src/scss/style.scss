@@ -4,9 +4,9 @@
 
 $primary: #76a8f3;
 $secondary: #131f8a;  
+$teritiary: #b7ddf0;
 
-
-html {
+html{
   /*font-family: Georgia, "Times New Roman", Times, serif;*/
   font-size: 62.5%;
   padding: 0;
@@ -22,29 +22,29 @@ body{
 .whole_page{
     height: 100rem;
     position: relative;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .title{
   position: absolute;
   top: 0%;
-  left: 0%;
+  left: 42%;
   font-family: 'Lobster', cursive;
   color: $secondary;
 }
 
-.flex-parent {
-  height: 100vh;
+.flex-parent-1{
+  height: 40vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.flex-child{
+.flex-child-1{
   background-color: $secondary;
-  margin: 100px;
+  margin: 70px;
   height: 30vh;
-  width: 30vh;
+  width: 50vh;
   justify-content: space-between;
   /*color: white;*/
 }
@@ -62,5 +62,28 @@ body{
 #flex-grow-3{
   display: flex;
     background-size: contain;
+}
+
+.flex-parent-2{
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-child-2{
+  background-color: $secondary;
+  margin: 70px;
+  height: 30vh;
+  width: 60vh;
+  justify-content: space-between;
+}
+
+#flex-part-1{
+  display: flex;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: $teritiary;
+  justify-content: ;
 }
 /*# sourceMappingURL=style.css.map */

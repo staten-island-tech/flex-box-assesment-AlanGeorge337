@@ -40,19 +40,19 @@ body {
 .whole_page {
   height: 100rem;
   position: relative;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .title {
   position: absolute;
   top: 0%;
-  left: 0%;
+  left: 42%;
   font-family: 'Lobster', cursive;
   color: #131f8a;
 }
 
-.flex-parent {
-  height: 100vh;
+.flex-parent-1 {
+  height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,11 +64,11 @@ body {
       justify-content: space-around;
 }
 
-.flex-child {
+.flex-child-1 {
   background-color: #131f8a;
-  margin: 100px;
+  margin: 70px;
   height: 30vh;
-  width: 30vh;
+  width: 50vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -94,5 +94,38 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-size: contain;
+}
+
+.flex-parent-2 {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-child-2 {
+  background-color: #131f8a;
+  margin: 70px;
+  height: 30vh;
+  width: 60vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#flex-part-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: #b7ddf0;
+  height: 50px;
 }
 /*# sourceMappingURL=style.css.map */
