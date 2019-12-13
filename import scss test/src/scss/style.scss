@@ -77,13 +77,26 @@ body{
   height: 30vh;
   width: 60vh;
   justify-content: space-between;
+  display: flex;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 2rem;
+  color: $teritiary;
+}
+
+.flex-child-3{
+  display: flex;
+  background-color: $secondary;
+  margin: 70px;
+  height: 30vh;
+  width: 60vh;
 }
 
 #flex-part-1{
-  display: flex;
-  font-family: 'Lobster', cursive;
-  font-size: 2rem;
-  color: $teritiary;
-  justify-content: ;
+
+}
+
+#flex-part-2{
+  
 }
 /*# sourceMappingURL=style.css.map */

@@ -117,15 +117,22 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-#flex-part-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-family: 'Lobster', cursive;
+  text-align: center;
   font-size: 2rem;
   color: #b7ddf0;
-  height: 50px;
+}
+
+.flex-child-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #131f8a;
+  margin: 70px;
+  height: 30vh;
+  width: 60vh;
 }
 /*# sourceMappingURL=style.css.map */
