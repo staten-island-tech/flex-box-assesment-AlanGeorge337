@@ -67,8 +67,8 @@ body {
 .flex-child-1 {
   background-color: #131f8a;
   margin: 70px;
-  height: 30vh;
-  width: 50vh;
+  max-height: 30vh;
+  max-width: 50vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -79,7 +79,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-size: cover;
+  max-width: 50vh;
+  max-height: 30vh;
 }
 
 #flex-grow-2 {
@@ -127,9 +128,6 @@ body {
 }
 
 .flex-child-3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background-color: #131f8a;
   margin: 70px;
   height: 30vh;
