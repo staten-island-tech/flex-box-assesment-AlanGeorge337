@@ -36,32 +36,32 @@ body{
 .flex-parent-1{
   height: 40vh;
   display: flex;
-  /*flex-direction: row;*/
+  flex-direction: row;
   justify-content: space-around;
 }
 
 .flex-child-1{
   background-color: $secondary;
   margin: 70px;
-  /*max-height: 30vh;*/
-  /*max-width: 50vh;*/
+  max-height: 30vh;
+  max-width: 50vh;
   justify-content: space-between;
   /*color: white;*/
 }
 
 #flex-grow-1{
-
+  display: flex; 
     max-width: 50vh;
     max-height: 30vh;
 }
 
 #flex-grow-2{
-
+  display: flex;
     background-size: contain;
 }
 
 #flex-grow-3{
-
+  display: flex;
     background-size: contain;
 }
 
@@ -77,29 +77,33 @@ body{
   margin: 70px;
   height: 30vh;
   width: 60vh;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
   font-family: 'Lobster', cursive;
   text-align: center;
   font-size: 2rem;
   color: $teritiary;
-  flex-direction: column;
 }
 
 .complex-1{
-
-  /*justify-content: space-evenly;
-  flex-direction: column;*/
-  height: 20vh;
-  width: 30vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vh;
+  text-align: center;
 }
 
 .complex-2{
-
-  /*justify-content: space-evenly;
-  flex-direction: column;*/
-  height: 20vh;
-  width: 30vh;
+  display: flex; 
+  justify-content: space-between;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vh;
+  text-align: center;
 }
+
 /*.flex-child-3{
   background-color: $secondary;
   margin: 70px;
