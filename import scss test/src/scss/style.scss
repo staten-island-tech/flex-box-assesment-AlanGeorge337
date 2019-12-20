@@ -90,8 +90,8 @@ body{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  height: 50vh;
-  width: 50vh;
+  height: 5vh;
+  width: 60vh;
   text-align: center;
 }
 
@@ -99,11 +99,41 @@ body{
   display: flex; 
   justify-content: space-between;
   flex-direction: column;
-  height: 50vh;
-  width: 50vh;
+
+  width: 60vh;
   text-align: center;
 }
 
+.complex-parent{
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.complex-child{
+  background-color: $secondary;
+  /*margin: 70px;*/
+  max-height: 25vh;
+  max-width: 15vh;
+  justify-content: space-between;
+}
+
+#flex-grow-4{
+  display: flex;
+
+  background-size: contain;
+}
+
+#flex-grow-5{
+  display: flex;
+  background-size: contain;
+}
+
+#flex-grow-6{
+  display: flex;
+  background-size: contain;
+}
 /*.flex-child-3{
   background-color: $secondary;
   margin: 70px;
