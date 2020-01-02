@@ -34,7 +34,7 @@ body{
 }
 
 .flex-parent-1{
-  height: 40vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -66,7 +66,7 @@ body{
 }
 
 .flex-parent-2{
-  height: 40vh;
+  height: 80vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -82,7 +82,7 @@ body{
   display: flex;
   font-family: 'Lobster', cursive;
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   color: $teritiary;
 }
 

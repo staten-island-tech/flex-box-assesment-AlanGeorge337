@@ -52,7 +52,7 @@ body {
 }
 
 .flex-parent-1 {
-  height: 40vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,7 +98,7 @@ body {
 }
 
 .flex-parent-2 {
-  height: 40vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,7 +127,7 @@ body {
   display: flex;
   font-family: 'Lobster', cursive;
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   color: #b7ddf0;
 }
 
