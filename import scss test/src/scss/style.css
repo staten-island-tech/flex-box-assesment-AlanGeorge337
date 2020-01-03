@@ -66,13 +66,12 @@ body {
 
 .flex-child-1 {
   background-color: #131f8a;
-  margin: 70px;
+  margin: 100px;
   max-height: 30vh;
   max-width: 50vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  /*color: white;*/
 }
 
 #flex-grow-1 {
@@ -177,12 +176,12 @@ body {
 
 .complex-child {
   background-color: #131f8a;
-  /*margin: 70px;*/
+  margin: 2vh;
   max-height: 25vh;
   max-width: 15vh;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #flex-grow-4 {
@@ -205,11 +204,4 @@ body {
   display: flex;
   background-size: contain;
 }
-
-/*.flex-child-3{
-  background-color: $secondary;
-  margin: 70px;
-  height: 30vh;
-  width: 60vh;
-}*/
 /*# sourceMappingURL=style.css.map */
